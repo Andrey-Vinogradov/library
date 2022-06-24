@@ -33,9 +33,9 @@ public class task1 {
             }
         }
         if (num == 2) {
+            in.nextLine(); //перевод курсора в начало строки
             System.out.print("Please input name of book: ");
             String newbook = in.nextLine();
-            System.out.println("____________");
             System.out.print("Please input name of author: ");
             String newauthor = in.nextLine();
             for (int i = 0; i < author.length; i++) {
